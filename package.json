@@ -1,7 +1,10 @@
 {
   "name": "organaizer",
+    "homepage": "https://maxunbearable.github.io/organaizer/",
   "version": "0.0.0",
   "scripts": {
+        "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
